@@ -1,0 +1,108 @@
+
+.lap-container {
+    margin-top: 20px;
+}
+
+#lapList {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.lap-container {
+    margin-top: 60px;
+    margin-left: 100px;
+}
+#lapList {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+.buttonLap {
+    background: transparent;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 160%;
+}
+.stopwatch {
+    display: flex;
+    border-radius: 50%;
+    justify-items: center;
+    width: 75%;
+    padding-top: 25px;
+  }
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 30px;
+  }
+  .stopwatch,
+.lap-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 270px;
+    width: 270px;
+  
+    border: 2px solid;
+    border-radius: 50%;
+} */
+
+/* Your image element */
+.img-to-white {
+    filter: grayscale(100%) invert(100%);
+  }
+  
+
+span{
+    z-index: 2;
+    font-size: 50px;
+}
+
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+    margin-top:160% ;
+  }
+#playButton{
+    display: block;
+    height: 60px;
+}
+#pauseButton{
+    display: none;
+    height: 60px;
+}
+#resetButton{
+    display: block;
+    height: 70px;
+}
+#lapButton{
+    display: block;
+    height: 70px;
+}
+
+@media screen and (min-width: 768px) {
+    .stopwatch {
+        width: 50%;
+    }
+    
+    .lap-container {
+        margin-top: 40px;
+    }
+}

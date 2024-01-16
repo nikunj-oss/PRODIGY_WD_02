@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="app2.css">
+</head>
+
+<body>
+    <div class="stopwatch">
+        <div class="circle"></div>
+        <span class="time" id="display">
+            00:00:00:00
+        </span>
+        <div class="control">
+            <button class="buttonPlay">
+                <img class="img-to-white" id="playButton" src="img/play.png" />
+
+                <img id="pauseButton" class="img-to-white" src="img/pause.png" />
+            </button>
+
+            <button class="buttonReset">
+                <img id="resetButton" class="img-to-white" src="img/refresh.png" />
+            </button>
+            <button class="buttonLap">
+                <img id="lapButton" class="img-to-white" src="img/time.png" >
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Add this structure inside the .stopwatch div -->
+    <div class="lap-container">
+        <ul id="lapList"></ul>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+
+</html>
